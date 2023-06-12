@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rregister</title>
+</head>
+<body>
+    <h1> rigisteration form </h1>
+    <form action="">
+        <label>first name: <input type="text" name="first name" placeholder="firstname" required></label>
+        <label>other name: <input type="text" name="othername" placeholder="othername" required></label><br>
+
+        <label> Male <input type="radio" name="gender" value="male"></label>
+        <label> Female <input type="radio" name="gender" value="female"></label>
+        <label> other <input type="radio" name="gander" value="other"></label><br>
+
+        <label>Email: <input type="email" name="email" placeholder="your email" required></label>
+
+        <label> password: <input type="password" name="password" placeholder="your password" pattern=".{5,10}" required title="please enter password of length 5 to 10"></label><br>
+
+        <label for=""> Birthday: </label>
+        <select  id="birthday" name="month">
+            <option value=""> Month</option>
+            <option>jan</option>
+            <option>feb</option>
+            <option>mar</option>
+            <option>apr</option>
+            <option>may</option>
+            <option>jun</option>
+            <option>jul</option>
+            <option>aug</option>
+            <option>sep</option>
+            <option>oct</option>
+            <option>nov</option>
+            <option>dec</option>
+        </select>
+        <select name="year" id="birthday">
+            <option > year</option>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            <option>2003</option>
+            <option>2004</option>
+            <option>2005</option>
+        </select><br>
+
+        <label> i agree to the terms and conditions
+            <input type="checkbox" name="check">
+         </label><br>
+
+         <input type="submit" name="submit">
+       </form><br>
+
+    <img src="background-21472__480.jpg" alt="not able to load" title="bacground" width="100",height="150">
+</body>
+</html>
